@@ -1,0 +1,16 @@
+{
+    "name": "code_bootstrap_fundamental",
+    "version": "1.0.0",
+    "description": "fundamental",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "academy",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "bootstrap-icons": "^1.11.3",
+        "lightbox2": "^2.11.4"
+    }
+}

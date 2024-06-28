@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bootstrap</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.min.css" />
+        <style>
+            header {
+                background-image: url(images/bg-intro-min.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            .project:hover {
+                transform: scale(1.05);
+                transition: all 0.5s ease-in-out;
+                opacity: 0.8;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header vh-100 text-center">
+            <div class="text-container d-flex flex-column justify-content-center align-items-center h-100">
+                <h2 class="text-primary fw-bold text-uppercase">Hello World</h2>
+                <h1 id="typing-text" class="display-1 fw-bold text-white">Im Naufal Farras Hilmy</h1>
+                <p class="roles text-uppercase fs4 text-white">
+                    <span>Fullstack Developer |</span>
+                    <span>System Analyst</span>
+                </p>
+                <a href="#about" class="btn btn-outline-primary btn-lg mt-3">
+                    <div class="d-flex">
+                        <div class="me-2">
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="text-start"><span>More About Me</span></div>
+                    </div>
+                </a>
+                <div class="d-flex gap-3 position-absolute bottom-0 mb-5">
+                    <a href="">
+                        <i class="bi bi-instagram fs-2 text-white"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="bi bi-facebook fs-2 text-white"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="bi bi-twitter-x fs-2 text-white"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="bi bi-youtube fs-2 text-white"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="bi bi-linkedin fs-2 text-white"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h3 class="text-uppercase fw-bold text-primary">About Me</h3>
+                    <hr class="w-25 mx-auto" />
+                    <h5 class="mb-4">Let me introduce</h5>
+                </div>
+                <div class="row gy-3 justify-content-center">
+                    <div class="col-12 text-center col-md-auto">
+                        <img src="https://picsum.photos/id/334/180/" alt="Profile" class="img-fluid rounded-circle" />
+                    </div>
+                    <div class="col-12 col-md-9 d-flex align-items-center">
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique illo deleniti voluptates autem debitis dolore totam placeat illum ratione provident reprehenderit, ipsa voluptate, necessitatibus nihil consequatur ab mollitia quibusdam molestiae.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h3 class="text-uppercase fw-bold text-primary">Portfoluo</h3>
+                    <hr class="w-25 mx-auto" />
+                    <h5 class="mb-4">Check Out My Work</h5>
+                    <p class="lead">Here is small sample of my project</p>
+                </div>
+                <div class="row g-4 justify-content-center text-center">
+                    <div class="col-12 col-md-6">
+                        <div class="project shadow-lg rounded-5">
+                            <a href="images/project-1-min.jpg" data-lightbox="my-project" data-title="My Project At Company 1">
+                                <img src="images/project-1-min.jpg" alt="project-1-min" class="img-fluid rounded-3" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="project shadow-lg rounded-5">
+                            <a href="images/project-2-min.jpg" data-lightbox="my-project" data-title="My Project At Company 2">
+                                <img src="images/project-2-min.jpg" alt="project-2-min" class="img-fluid rounded-3" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="project shadow-lg rounded-5">
+                            <a href="images/project-3-min.jpg" data-lightbox="my-project" data-title="My Project At Company 3">
+                                <img src="images/project-3-min.jpg" alt="project-3-min" class="img-fluid rounded-3" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="project shadow-lg rounded-5">
+                            <a href="images/project-4-min.jpg" data-lightbox="my-project" data-title="My Project At Company 4">
+                                <img src="images/project-4-min.jpg" alt="project-4-min" class="img-fluid rounded-3" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+    </body>
+</html>
